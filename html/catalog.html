@@ -7,15 +7,33 @@
   <body>
     <header>
       <img src="" alt="device logo">
-      <input type="text" placeholder="Поиск по сайту">
-      <p>каталог товаров</p>
-      <a>Валентин Петухов</a>
-      <input type="button" value="Выйти">
-      <a href="#">Сравнить</a>
-      <a href="#">Корзина</a>
-      <a>Доставка</a>
-      <a>Горантия</a>
-      <a>Контакты</a>
+      <div>
+        <input type="text" placeholder="Поиск по сайту">
+        <a>Валентин Петухов</a>
+        <input type="button" value="Выйти">
+        <a href="#">Сравнить</a>
+        <a href="#">Корзина</a>
+      </div>
+      <div>
+        <p>каталог товаров</p>
+        <a>Доставка</a>
+        <a>Горантия</a>
+        <a>Контакты</a>
+      </div>
+      <div>
+        <div>
+          <a href="">Виртуальная реальность</a>
+          <a href="">Фитнес-браслеты</a>
+          <a href="">Квадрокоптеры</a>
+        </div>
+        <div>
+          <a href="">Моноподы для селфи</a>
+          <a href="">Умные часы</a>
+        </div>
+        <div>
+          <a href="">Экшн-камеры</a>
+        </div>
+      </div>
     </header>
     <main>
       <h1>Моноподы для селфи</h1>
@@ -26,34 +44,47 @@
           <li><a href="">Моноподы для селфи</a></li>
         </ul>
       </nav>
-      <aside>
+      <section>
         <h2>Фильтры</h2>
-        <section>
-          <h3>Фильтр по цвету</h3>
-          <dl>
-            <dt><input type="checkbox"></dt>
-            <dd>Чёрный</dd>
-            <dt><input type="checkbox"></dt>
-            <dd>Белый</dd>
-            <dt><input type="checkbox"></dt>
-            <dd>Синий</dd>
-            <dt><input type="checkbox"></dt>
-            <dd>Красный</dd>
-            <dt><input type="checkbox"></dt>
-            <dd>Розовый</dd>
-          </dl>
-        </section>
-        <section>
-          <h3>Фильтр по Bluetooth</h3>
-          <dl>
-            <dt><input type="radio"></dt>
-            <dd>Есть</dd>
-            <dt><input type="radio"></dt>
-            <dd>Нет</dd>
-          </dl>
-        </section>
-        <input type="button" value="показать">
-      </aside>
+        <form method="get" action="">
+          <fieldset>
+            <legend>Фильтр по цвету</legend>
+            <label>
+              Чёрный
+              <input type="checkbox" name="black">
+            </label>
+            <label>
+              Белый
+              <input type="checkbox" name="white">
+            </label>
+            <label>
+              Синий
+              <input type="checkbox" name="blue">
+            </label>
+            <label>
+              Красный
+              <input type="checkbox" name="red">
+            </label>
+            <label>
+              Розовый
+              <input type="checkbox" name="pink">
+            </label>
+          </fieldset>
+          <fieldset>
+            <h3>Фильтр по Bluetooth</h3>
+            <legend>Bluetooth</legend>
+            <label>
+              Есть
+              <input type="radio" name="blue-tooth" value="yes">
+            </label>
+            <label>
+              Нет
+              <input type="radio" name="blue-tooth" value="no">
+            </label>
+          </fieldset>
+          <button type="submit">показать</button>
+        </form>
+      </section>
       <section>
         <h2>Фото галерея</h2>
         <ul>
