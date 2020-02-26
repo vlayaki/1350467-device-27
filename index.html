@@ -2,11 +2,153 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Девайс</title>
+    <title>Device</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap&subset=cyrillic"
+          rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
-
+    <header>
+      <img src="img/header/logo.svg" alt="device logo" class="fade-on-hover">
+      <div>
+        <div class="search">
+          <div class="icon"></div>
+          <input type="text" placeholder="Поиск по сайту">
+          <button type="button">Найти</button>
+        </div>
+        <div class="button fade-on-hover">
+          <div class="icon user-ico"></div>
+          <button>Войти</button>
+        </div>
+        <div class="button fade-on-hover">
+          <div class="icon compare-ico"></div>
+          <button>Сравнить</button>
+        </div>
+        <div class="button fade-on-hover">
+          <div class="icon cart-ico"></div>
+          <button>Корзина</button>
+        </div>
+      </div>
+      <div class="bold">
+        <div class="button fade-on-hover">
+          <button>КАТАЛОГ ТОВАРОВ</button>
+          <div class="icon plus-ico"></div>
+        </div>
+        <div class="services">
+          <a href="#" class="fade-on-hover">ДОСТАВКА</a>
+          <a href="#" class="fade-on-hover">ГОРАНТИЯ</a>
+          <a href="#" class="fade-on-hover">КОНТАКТЫ</a>
+        </div>
+      </div>
+      <div>
+        <div>
+          <a href="">Виртуальная реальность</a>
+          <a href="">Фитнес-браслеты</a>
+          <a href="">Квадрокоптеры</a>
+        </div>
+        <div>
+          <a href="">Моноподы для селфи</a>
+          <a href="">Умные часы</a>
+        </div>
+        <div>
+          <a href="">Экшн-камеры</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1></h1>
+      <section class="about">
+        <h2 class="bold">О нас</h2>
+        <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
+        <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными
+          компаниями:
+        </p>
+        <ul class="bold">
+          <li>Деловые Линии</li>
+          <li>Автотрейдинг</li>
+          <li>ЖелДорЭкспедиция</li>
+        </ul>
+        <a class="button-2 bold">ПОДРОБНЕЕ О НАС</a>
+      </section>
+      <section>
+        <h2 class="bold">Контакты</h2>
+        <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить
+          работоспособность покупки. Всякое бывает.</p>
+        <a>
+          <img src="" alt="карта">
+        </a>
+        <a class="button-2 bold">НАПИШИТЕ НАМ</a>
+      </section>
+      <section>
+        <h2>Форма обратной связи</h2>
+        <form method="post" action="">
+          <button type="button"></button>
+          <label>
+            Ваше Имя:
+            <input type="text" placeholder="Имя Фамилия" name="full-name">
+          </label>
+          <label>
+            Ваш e-mail:
+            <input type="text" placeholder="email@example.com" name="mail">
+          </label>
+          <label>
+            Текст Письма:
+            <textarea placeholder="В свободной форме"></textarea>
+          </label>
+          <button type="submit">Отправить</button>
+        </form>
+      </section>
+      <section class="how-to-find-us">
+        <h2>Как нас найти</h2>
+        <button type="button"></button>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <a href="" target="_blank" class="fade-on-hover">
+          <img src="img/footer/logo.png" alt="device logo">
+        </a>
+        <ul>
+          <li>
+            <div class="button brighten-on-hover">
+              <div class="icon footer-user-ico"></div>
+              <button>Войти</button>
+            </div>
+          </li>
+          <li>
+            <div class="button brighten-on-hover">
+              <div class="icon footer-compare-ico"></div>
+              <button>Сравнить</button>
+            </div>
+          </li>
+          <li>
+            <div class="button brighten-on-hover">
+              <div class="icon footer-cart-ico"></div>
+              <button>Корзина</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p>г. Москва, ул. Строителей, 15</p>
+        <ul>
+          <li><a class="bold fade-on-hover">ДОСТАВКА</a></li>
+          <li><a class="bold fade-on-hover">ГАРАНТИЯ</a></li>
+          <li><a class="bold fade-on-hover">КОНТАКТЫ</a></li>
+        </ul>
+        <p>Тел.: +7 (495) 495-95-95</p>
+      </div>
+      <div>
+        <div></div>
+        <ul class="socials">
+          <li><a ><div class="icon facebook-icon brighten-on-hover"></div></a></li>
+          <li><a ><div class="icon instagram-icon brighten-on-hover"></div></a></li>
+          <li><a ><div class="icon twitter-icon brighten-on-hover"></div></a></li>
+        </ul>
+        <img src="img/footer/logo-2.png" class="fade-on-hover" alt="device logo2">
+      </div>
+    </footer>
   </body>
+
 </html>

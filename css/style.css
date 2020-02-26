@@ -1,0 +1,228 @@
+@font-face {
+  font-family: Gilroy;
+  src: url(../fonts/web/gilroylight.woff2);
+}
+
+@font-face{
+    font-family: Gilroy;
+    src: url(../fonts/web/gilroyextrabold.woff2);
+    font-weight: bold;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    color: #000000;
+}
+
+header{
+    background-color: #f7e296;
+}
+
+footer{
+    background-color: #464646;
+    color: white;
+}
+
+main{
+    color: #464646;
+}
+
+.fade-on-hover:hover {
+    opacity: 0.7;
+}
+
+.fade-on-hover:active {
+    opacity: 0.4;
+}
+
+.brighten-on-hover{
+  opacity: 0.7;
+}
+
+.brighten-on-hover:hover {
+    opacity: 1;
+}
+
+.brighten-on-hover:active {
+    opacity: 0.4;
+}
+
+.search{
+    display: flex;
+    width: 440px;
+    height: 50px;
+}
+
+.search input[type=text]{
+    font: inherit;
+    padding-left: 20px;
+    box-sizing: border-box;
+    width: 335px;
+    font-size: 15px;
+    line-height: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+.search input[type=text]:hover,
+.search input[type=text]:focus{
+    outline:none;
+}
+
+.search input[type=text]:focus{
+  border-bottom:2px solid black;
+}
+
+.search input[type=text]::placeholder{
+    color: #999999;
+}
+.search input[type=text]:hover::placeholder{
+    color: #666666;
+}
+.search input[type=text]:focus::placeholder{
+    color: #000000;
+}
+
+.search .icon{
+    flex-grow: 1;
+    background-image: url('../img/header/search.png');
+    background-repeat: no-repeat;
+    background-position: 3px 18px;
+}
+
+.search button{
+    font: inherit;
+    width: 85px;
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+.search button:focus{
+    outline: none;
+}
+
+.search button:hover{
+    background-color: black;
+    color: white;
+}
+
+.search button:active{
+    color: #666666;
+}
+
+.button{
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button .icon{
+    background-repeat: no-repeat;
+    background-position: 0 9px;
+    width: 22px;
+}
+
+.button button{
+    font: inherit;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: inherit;
+}
+
+.button button:focus{
+  outline: none;
+}
+
+.user-ico{
+    background-image: url('../img/header/user.png');
+}
+
+.compare-ico{
+    background-image: url('../img/header/compare.png');
+}
+
+.cart-ico{
+    background-image: url('../img/header/cart.png');
+}
+
+.plus-ico{
+    background-image: url('../img/header/plus.png');
+}
+
+.bold{
+    font-family: Gilroy, Arial, sans-serif;
+    font-weight: bold;
+    color: inherit;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+
+.services a{
+    text-decoration: none;
+}
+
+.services a:link,
+.services a:visited{
+    color: black;
+}
+
+.about ul{
+    list-style-type: circle;
+}
+
+.button-2{
+    background-image: url('../img/main/button-idle.png');
+    background-repeat: repeat-x ;
+    background-size: auto 6px;
+    background-position: 0 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button-2:hover{
+    background-color: #f0c52e;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.button-2:active{
+    opacity: 0.5;
+}
+
+.footer-user-ico{
+    background-image: url('../img/footer/user.png');
+}
+
+.footer-compare-ico{
+    background-image: url('../img/footer/compare.png');
+}
+
+.footer-cart-ico{
+    background-image: url('../img/footer/cart.png');
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+.socials .icon{
+    width: 32px;
+    height: 32px;
+}
+.facebook-icon{
+    background-image: url('../img/footer/fb.svg');
+}
+
+.instagram-icon{
+  background-image: url('../img/footer/insta.svg');
+}
+
+.twitter-icon{
+  background-image: url('../img/footer/twitter.svg');
+}
